@@ -19,18 +19,21 @@ Generar máquinas virtuales, mediante la plataforma Amazon EC2,utilizando esta h
 **Maquina Virtual**
  Es un software que permite emular el funcionamiento de un ordenador dentro de otro mendiante el encapsulamiento que aísla a ambos.Puede ejecutar cualquier sistema operativo o programa, sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta.
 Se puede trabajar con varios sistemas operativos al mismo tiempo en un mismo ordenador por ejemplo se podria usar Linux y windows.
-      ![Img3MaquinaVirtual.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img3MaquinaVirtual.png)  
+
+   ![Img3MaquinaVirtual.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img3MaquinaVirtual.png)  
 
 **CLOUD COMPUTING**
 
   Cloud computing, o computación en nube, se define como una tecnología que ofrece servicios a través de la plataforma de internet.Se puede acceder a este tipo de serviciosde 
 forma  gratuita o de pago, según las necesidades que tenga uno. Este modelo está inspirado en los cajeros automáticos, los que permiten acceder al dinero y servicios disponibles desde cualquier terminal habilitado. Luego esa idea se llevó a la red internet, y es lo que conocemos actualmente como cloud computing. Esta tecnología se destaca por ofrecer todos sus servicios de forma remota a través de esta analogía de "nube virtual", y uno como usuario de este servicio no necesita un dispositivo de última generación para utilizar los servicios de esta nube, ya que todo se ejecuta desde la misma, lo que se traduce en la ausencia de descarga y actualización de software. (Leyton & Fernández, 2010)
-                         ![Imagen1%20Cloud%20Company.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Imagen1%20Cloud%20Company.png)  
+                        
+   ![Imagen1%20Cloud%20Company.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Imagen1%20Cloud%20Company.png)  
 
 **Amazon Elastic Compute Cloud Amazon Ec2**
 
 Proporciona capacidad de computación escalable en la nube de Amazon Web Services (AWS). El uso de Amazon EC2 elimina la necesidad de invertir inicialmente en hardware, de manera que  puede desarrollar e   implementar aplicaciones en menos  tiempo. Puede usar Amazon EC2 para lanzar tantos servidores virtuales como  necesite, configurar la seguridad y las redes y administrar   el almacenamiento. Amazon Elastic Compute Cloud  Amazon EC2  le permite escalar hacia arriba o hacia abajo para controlar cambios en los requisitos o picos de popularidad, con lo que se reduce la necesidad de prever el tráfico. (Amazon, 2020)   
-                            ![imagen2AWS.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/imagen2AWS.png) 
+            
+   ![imagen2AWS.png](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/imagen2AWS.png) 
 
 **¿Para qué sirve Amazon EC2?**
 
@@ -38,18 +41,14 @@ Amazon EC2 ofrece a sus usuarios la posibilidad de crear entornos informáticos 
 
 ##### Características
 * Entornos informáticos virtuales, conocidos como instancias
-* Plantillas preconfiguradas para las instancias, conocidas como imágenes de máquina de Amazon (AMI), que empaquetan las partes que necesita para el servidor (incluido el sistema operativo y el software adicional)
+* Plantillas preconfiguradas para las instancias, conocidas como imágenes de máquina de Amazon (AMI), que empaquetan las partes que necesita para el servidor (incluido el    sistema operativo y el software adicional)
 * Varias configuraciones de CPU, memoria, almacenamiento y capacidad de red de las instancias, conocidos como tipos de instancias
 * Información de inicio de sesión segura para las instancias con pares de claves (AWS almacena la clave pública y usted guarda la clave privada en un lugar seguro)
 * Volúmenes de almacenamiento para datos temporales que se eliminan cuando detiene o termina la instancia, conocidos como volúmenes de almacén de instancias
 * Volúmenes de almacenamiento persistente para los datos usando Amazon Elastic Block Store (Amazon EBS), conocidos como volúmenes de Amazon EBS
 * Varias ubicaciones físicas para los recursos, como las instancias y los volúmenes de Amazon EBS, conocidas como regiones y zonas de disponibilidad
-* Un firewall que permite especificar los protocolos, los puertos y los rangos de direcciones IP que pueden alcanzar las instancias mediante el uso de grupos de seguridad
-* Direcciones IPv4 estáticas para informática en la nube dinámica, conocidas como direcciones IP elásticas
-* Metadatos, conocidos como etiquetas, que se pueden crear y asignar a los recursos de Amazon EC2
 * Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas   virtuales (VPC)
 ##### Precios de Amazon EC2
-
 Existen cinco modelos de compra de instancias de Amazon EC2:
 * bajo demanda           * Savings Plans
 * instancias reservadas  * instancias de spot. 

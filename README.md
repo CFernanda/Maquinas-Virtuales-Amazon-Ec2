@@ -1,18 +1,9 @@
 # Maquinas-Virtuales-Amazon-Ec2
 ## Informe
 # PLANTEAMIENTO DEL PROBLEMA
-Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
 
-Especificar lo que ha de determinarse o resolverse
-Restringir el campo de estudio en un interrogante concreto
-Enunciarse de una forma clara y unívoca, de modo que la respuesta sólo admita respuestas precisas
-Susceptible de verificación empírica. No debe plantear juicios de valor sobre lo que es mejor o peor, sobre cómo debería ser idealmente la realidad, sino sobre cómo es realmente.
-Su formulación debe responder a tres criterios básicos:
-
-Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
-Concisión.
-Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
-Crear una maquina virtual en la plataforma **Amazon EC2**
+A medidad que la tegnologia avanza, se crean constantemente nuevos sistemas operativos cada uno con caracterìsticas propias y mejores a las ya existentes, por tal motivo se busca siempre estar al dìa con ello porque resultarìa incomodo adquirir  varios dispositivos con el fin de probar cada sistema es ahì en donde se genera la idea de utilizar **Màquinas Virtuales**, ya que son versatiles al momento de trabajar en ellas, permite trabajar con varios sistemas operativos en un mismos ordenador, ejecutar un  programa antiguo utilizar aplicaciones que no sean permitidas en el sistema  operativo propio entre otras cosas, en ese sentido este tutorial  busca  es investigar la generaciòn de 
+**Màquinas Virtuales** en la plataforma Amazon EC2  pues funciona como nube en la que se puede almacenar varias màquinas virtuales de varios sistemas operativos para  hacer   uso de ellas en cualquier momento y desde cuaqluier lugar. 
 
 # OBJETIVOS
 

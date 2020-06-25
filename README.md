@@ -26,7 +26,7 @@ forma  gratuita o de pago, según las necesidades que tenga uno. Este modelo est
 **Amazon Elastic Compute Cloud Amazon Ec2**
 
 Proporciona capacidad de computación escalable en la nube de Amazon Web Services (AWS). El uso de Amazon EC2 elimina la necesidad de invertir inicialmente en hardware, de manera que  puede desarrollar e   implementar aplicaciones en menos  tiempo. Puede usar Amazon EC2 para lanzar tantos servidores virtuales como  necesite, configurar la seguridad y las redes y administrar   el almacenamiento. Amazon Elastic Compute Cloud  Amazon EC2  le permite escalar hacia arriba o hacia abajo para controlar cambios en los requisitos o picos de popularidad, con lo que se reduce la necesidad de prever el tráfico. (Amazon, 2020)   
-                            ![AWS-EC2-852x459-1.jpg](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/AWS-EC2-852x459-1.jpg)
+                            ![AWS-EC2-852x459-1.jpg](https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/AWS-EC2-852x459-1.jpg) 
 
 **¿Para qué sirve Amazon EC2?**
 

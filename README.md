@@ -69,7 +69,7 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 
 **Pruebas:** Son ofertas de pruebas a corto plazo que comienzan desde el momento en que comienza el primer uso. Una vez que vence el plazo, simplemente tendrá que pagar las tarifas del servicio estándar según el uso (consulte la página de cada servicio para obtener información completa sobre los precios).
 
-#### Manual de Usuario
+#### MANUAL DE USUARIO
 
  Para la Generación de una máquina virtual en la plataforma Amazon EC2  se deben seguir ciertos pasos:
  

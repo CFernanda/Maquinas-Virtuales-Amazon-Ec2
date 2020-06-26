@@ -137,11 +137,32 @@ Una vez  creada la cuenta se debe ingresar con el correo y la clave a la platafo
  
   ![Img16Caracteristicas.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img16Caracteristicas.png )
 
-- La máquina ya esta creada ahora debemos entrar en ella para eso bore la maquina que deseemos entrar debemos dar click derecho y escoger la opcion **Get Windows Password**
+- La máquina ya esta creada ahora debemos entrar en ella para eso sobre la máquina que deseemos entrar debemos dar click derecho y escoger la opcion **Get Windows Password**
  
  ![Img17Caracteristicas.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img17IngresoMaquina.png )
  
- - Lo siguiente sera ingresar la clave de Acceso que se Genero (en este caso cambia el nombre porque inicializé otra Máquina de las que ya estaban creadas), Damos Click en el botón **Descrypt Password**
+ - Lo siguiente será ingresar la clave de Acceso para la maquina que se vay a ocupar, damos Click en el botón **Descrypt Password** 
+ 
+   ![Img18AccesoconClave.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img18AccesoconClave.png )
+  
+ -Adicional a eso se debe descargar la Máquina se debe presionar el botón **Connect**, se abrirá otra pantalla y ahí presionar **Download Remote Desktop File** y se descargará la máquina.
+ 
+ ![Img19%20Descargar.PNG ](   https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img19%20Descargar.PNG )
+
+- Una vez realizados los anteriores pasos se abrirá una ventana con la contraseña y el usuario para ingresarlos en la Máquina descargada, ambas ventanas se muestran en la siguiente imagen.
+
+![Img20IngresarCreedenciales.png](   https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img20IngresarCreedenciales.png)
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
  
  
 

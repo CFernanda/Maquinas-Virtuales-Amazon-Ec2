@@ -50,24 +50,37 @@ Amazon EC2 ofrece a sus usuarios la posibilidad de crear entornos informáticos 
 * Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas   virtuales (VPC)
 ##### Precios de Amazon EC2
 Existen cinco modelos de compra de instancias de Amazon EC2:
-* bajo demanda           * Savings Plans
-* instancias reservadas  * instancias de spot. 
-* alojamientos dedicados
+* Bajo demanda: Con las instancias bajo demanda, paga por la capacidad informática por hora o por segundo, según las instancias que use.            
+* Savings Plans: Es un modelo de precios flexible que ofrece precios económicos por el uso de EC2 y Fargate, a cambio de comprometerse a una cantidad constante de uso (medida en USD/hora) durante el término de 1 o 3 años.
+* Instancias reservadas:Las instancias reservadas ofrecen un descuento importante (de hasta el 75 %) en comparación con los precios de las instancias bajo demanda.  
+* Instancias de spot: Permiten solicitar capacidad informática sobrante de Amazon EC2 con descuentos de hasta el 90% en comparación con el precio de las instancias bajo demanda. 
+* Alojamientos dedicados:Un host dedicado es un servidor físico de EC2 exclusivo para su uso. Los hosts dedicados pueden ayudarle a reducir costos porque le permiten usar sus licencias existentes de software enlazado al servidor, incluidos Windows Server, SQL Server y SUSE Linux Enterprise Server (en función de los términos de su licencia). 
 
+*CAPA GRATUITA*
+**12 meses gratis:** Exclusiva para los nuevos clientes de AWS y solo durante doce meses a partir de la fecha de inscripción en AWS. Cuando finalicen los 12 meses de uso gratuito o si el uso de su aplicación supera las capas, tendrá que pagar las tarifas de servicio estándar.
 
+**Gratis para siempre:** No vencen automáticamente al finalizar los 12 meses de la capa gratuita de AWS, sino que están disponibles tanto para clientes ya existentes como para nuevos clientes de AWS de forma indefinida.
 
+**Pruebas:** Son ofertas de pruebas a corto plazo que comienzan desde el momento en que comienza el primer uso. Una vez que vence el plazo, simplemente tendrá que pagar las tarifas del servicio estándar según el uso (consulte la página de cada servicio para obtener información completa sobre los precios).
 
+#### Manual de Usuario
+ Para la GeneraciÓn de una máquina virtual en la plataforma Amazon EC2  se deben seguir ciertos pasos:
+ **1) Crear una cuenta en Amazon EC2**
+ 
+ * Se ingresa en  Amazon EC2,  https://aws.amazon.com/es/ec2/., donde aparecerá la siguiente pantalla. 
+ 
+ ![Img4IngresoAmazonEC2.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img4IngresoAmazonEC2.png) 
 
-## LISTA DE COMPONENTES
-* Amazon EC2
-## CONCLUSIONES
+* En la pantalla anterior damos click en el botón tomate "**Ingresar a la consola**", y aparecerá una nueva ventana que nos permitirá ingresar si ya se tiene una cuenta o  crear  nueva, para el caso damos click en "**Crear una cuenta de AWS** "
 
-Para crearse una cuenta en Amazon EC2 es nece
+![Img5IngresoConsola.pn]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img5IngresoConsola.png) 
 
-## RECOMENDACIONES
-Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
+![Img6formulariocrearcuenta.pngg]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.pngg) 
 
-### CRONOGRAMA
+* Una vez Ingresado se abre un formulario donde pide varios datos que son necesarios para crear la cuenta, uno de esos datos es el ingreso de un número de Tarjeta de Crédito Amazon Ec2 lo utiliza solo para verificar la cuenta, por tal motivo se descuentan $1 sin embargo a los dos días como máximo se reembolsa ese dinero y de ahí en adelante se puede usar durante 12 meses de forma gratuita
+ ![Img7formularioScrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img7formularioScrearcuenta.png) 
+ 
+  
 
 
 

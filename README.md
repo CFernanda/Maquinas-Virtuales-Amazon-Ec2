@@ -141,7 +141,7 @@ Una vez  creada la cuenta se debe ingresar con el correo y la clave a la platafo
  
  ![Img17Caracteristicas.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img17IngresoMaquina.png )
  
- - Lo siguiente sera ingresar la clave de Acceso que se Genero(en este caso estoy ingresando a otr otra maquina por eso cambia el nombre ) y dar
+ - Lo siguiente sera ingresar la clave de Acceso que se Genero (en este caso cambia el nombre porque inicializé otra Máquina de las que ya estaban creadas), Damos Click en el botón **Descrypt Password**
  
  
 

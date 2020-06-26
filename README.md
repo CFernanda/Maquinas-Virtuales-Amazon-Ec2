@@ -2,7 +2,7 @@
 ## Informe
 #### Introucción
 
-A medidad que la tegnologia avanza, se crean constantemente nuevos sistemas operativos cada uno con caracterìsticas propias y mejores a las ya existentes, por tal motivo se   busca siempre estar al dìa con ello porque resultarìa incomodo adquirir  varios dispositivos con el fin de probar cada sistema es ahì en donde se genera la idea de utilizar **Màquinas Virtuales**, ya que son versatiles al momento de trabajar en ellas, permite trabajar con varios sistemas operativos en un mismos ordenador, ejecutar un  programa antiguo utilizar aplicaciones que no sean permitidas en el sistema  operativo propio entre otras cosas, en ese sentido este tutorial  busca  es investigar la generaciòn de 
+A medidad que la tegnologia avanza, se crean constantemente nuevos sistemas operativos cada uno con caracterìsticas propias y mejores a las ya existentes, por tal motivo se   busca siempre estar al dìa con ello porque resultarìa incomodo adquirir  varios dispositivos con el fin de probar cada sistema es ahí en donde se genera la idea de utilizar **Màquinas Virtuales**, ya que son versatiles al momento de trabajar en ellas, permite trabajar con varios sistemas operativos en un mismos ordenador, ejecutar un  programa antiguo utilizar aplicaciones que no sean permitidas en el sistema  operativo propio entre otras cosas, en ese sentido este tutorial  busca  es investigar la generación de 
 **Màquinas Virtuales** en la plataforma Amazon EC2  pues funciona como nube en la que se puede almacenar varias màquinas virtuales de varios sistemas operativos para  hacer   uso de ellas en cualquier momento y desde cuaqluier lugar. 
 
 #### OBJETIVOS
@@ -60,7 +60,7 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 * Instancias de spot: Permiten solicitar capacidad informática sobrante de Amazon EC2 con descuentos de hasta el 90% en comparación con el precio de las instancias bajo demanda. 
 * Alojamientos dedicados:Un host dedicado es un servidor físico de EC2 exclusivo para su uso. Los hosts dedicados pueden ayudarle a reducir costos porque le permiten usar sus licencias existentes de software enlazado al servidor, incluidos Windows Server, SQL Server y SUSE Linux Enterprise Server (en función de los términos de su licencia). 
 
-*CAPA GRATUITA*
+***CAPA GRATUITA***
 
 **12 meses gratis:** Exclusiva para los nuevos clientes de AWS y solo durante doce meses a partir de la fecha de inscripción en AWS. Cuando finalicen los 12 meses de uso gratuito o si el uso de su aplicación supera las capas, tendrá que pagar las tarifas de servicio estándar.
 
@@ -70,7 +70,8 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 
 #### Manual de Usuario
 
- Para la GeneraciÓn de una máquina virtual en la plataforma Amazon EC2  se deben seguir ciertos pasos:
+ Para la Generación de una máquina virtual en la plataforma Amazon EC2  se deben seguir ciertos pasos:
+ 
  **1) Crear una cuenta en Amazon EC2**
  
  * Se ingresa en  Amazon EC2,  https://aws.amazon.com/es/ec2/., donde aparecerá la siguiente pantalla. 
@@ -81,19 +82,20 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 
 ![Img5IngresoConsola.pn]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img5IngresoConsola.png) 
 
-![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
 
-* Una vez que dimos click en ese boton se abren 5 tipos de formularios donde pide varios datos que son necesarios para crear la cuenta;
+* Una vez que dimos click en ese botón se abren 5 tipos de formularios donde pide varios datos que son necesarios para crear la cuenta;
+  - **Crear cuenta de AWS** Se ingresa los datos de la cuenta que se creara
 
-  - **Informacion de contacto** se debe escoger personal, si no perteneces a alguna empresa
+  - **Información de contacto** se debe escoger personal, si no perteneces a alguna empresa.
   
-  - **Informacion de pago** se necesita el ingreso de un número de Tarjeta de Crédito, Amazon Ec2 lo útiliza solo para verificar la cuenta, por tal motivo se descuentan $1 sin       embargo a los dos días como máximo se reembolsa ese dinero y de ahí en adelante se puede usar durante 12 meses de forma gratuita. 
+  - **Información de pago** se necesita el ingreso de un número de Tarjeta de Crédito, Amazon Ec2 lo útiliza solo para verificar la cuenta, por tal motivo se descuentan $1 sin       embargo a los dos días como máximo se reembolsa ese dinero y de ahí en adelante se puede usar durante 12 meses de forma gratuita. 
   
   - En los dos últimos se realiza la verificación y da el resultado si la creación fue exitosa o no.
 
-![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
+ ![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
 
  ![Img7formularioScrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img7formularioScrearcuenta.png) 
+ 
  
   
 

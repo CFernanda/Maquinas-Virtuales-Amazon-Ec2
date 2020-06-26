@@ -153,47 +153,19 @@ Una vez  creada la cuenta se debe ingresar con el correo y la clave a la platafo
 
 ![Img20IngresarCreedenciales.png](   https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img20IngresarCreedenciales.png)
 
+El sistema operativo en la nueva máquina virtual se carga por no más de 2 minutos.
 
+![Img21conexionescritorioremoto.jpg]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img21conexionescritorioremoto.jpg)
 
+- Finalmente se ingresa a la máquina virtual como se muestra a continuación.
+![Maquina%20Virtual%20Creada.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Maquina%20Virtual%20Creada.png)
 
-
-
- 
- 
- 
- 
- 
- 
- 
-
-
-  
- 
- 
-
- 
- 
- 
- 
-
- 
-  
-   
-   
-   
- 
-
-
- 
- 
- 
- 
-  
-
-
-
+![PantallaMaquinaVirtual.png)]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/PantallaMaquinaVirtual.png)
 
 ### BIBLIOGRAFÍA
- Amazon Web Services. (2020).Recuperado de:[https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html]
+ * Amazon Web Services. (2020).Recuperado de:[https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html]
+ * Microsoft Azure. (2020). Azure. Recuperado de:https://azure.microsoft.com/es-es/overview/
+ * Ramirez, I. (25 de Julio de 2016). Xataka. Obtenido de Máquinas virtuales: qué son, cómo funcionan y cómo utilizarlas: https://www.xataka.com/especiales/maquinas-virtuales-que-son-como-funcionan-y-como-utilizarlas
+ * Leyton, J., & Fernández, V. (14 de Julio de 2010). Cloud Computing. Obtenido de http://profesores.elo.utfsm.cl/~agv/elo322/1s10/project/reports/cloudcomputing-10s01.pdf
 
 

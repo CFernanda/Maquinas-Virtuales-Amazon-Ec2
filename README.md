@@ -1,23 +1,24 @@
-# Máquinas-Virtuales-Amazon-Ec2
+# Máquinas-Virtuales-Amazon-EC2
 ## Informe
-#### Introucción
+#### INTRODUCCIÓN
 
-A medidad que la tegnologia avanza, se crean constantemente nuevos sistemas operativos cada uno con caracterìsticas propias y mejores a las ya existentes, por tal motivo se   busca siempre estar al dìa con ello porque resultarìa incomodo adquirir  varios dispositivos con el fin de probar cada sistema es ahí en donde se genera la idea de utilizar **Màquinas Virtuales**, ya que son versatiles al momento de trabajar en ellas, permite trabajar con varios sistemas operativos en un mismos ordenador, ejecutar un  programa antiguo utilizar aplicaciones que no sean permitidas en el sistema  operativo propio entre otras cosas, en ese sentido este tutorial  busca  es investigar la generación de 
-**Màquinas Virtuales** en la plataforma Amazon EC2  pues funciona como nube en la que se puede almacenar varias màquinas virtuales de varios sistemas operativos para  hacer   uso de ellas en cualquier momento y desde cuaqluier lugar. 
+A medidad que la tegnología avanza, se crean constantemente nuevos sistemas operativos cada uno con caracterìsticas propias y mejores a las ya existentes, por tal motivo se   busca siempre estar al dìa con ello porque resultarìa incomodo adquirir  varios dispositivos con el fin de probar cada sistema es ahí en donde se genera la idea de utilizar **Máquinas Virtuales**, ya que son versatiles al momento de trabajar en ellas, permite trabajar con varios sistemas operativos en un mismos ordenador, ejecutar un  programa antiguo utilizar aplicaciones que no sean permitidas en el sistema  operativo propio entre otras cosas, en ese sentido este tutorial  busca  es investigar la generación de 
+**Máquinas Virtuales** en la plataforma Amazon EC2  pues funciona como nube en la que se puede almacenar varias máquinas virtuales de varios sistemas operativos para  hacer   uso de ellas en cualquier momento y desde cuaqluier lugar. 
 
 #### OBJETIVOS
 **Objetivo general**
 
-Generar máquinas virtuales, mediante la plataforma Amazon EC2,utilizando esta herramienta de manera adecuada con la finalidad de tener en esta platadorma, otro sistema operativo y usarlo en cualquier momento y desde cualquier parte del mundo.
+Generar máquinas virtuales, mediante la plataforma Amazon EC2,utilizando esta herramienta de manera adecuada con la finalidad de tener en esta plataforma, otro sistema operativo y usarlo en cualquier momento y desde cualquier parte del mundo.
 
 **Objetivos Especifícos**
 
 * Crear una cuenta en la plataforma Amazon Ec2, conocer todos los beneficios que ofrece y hacer uso de ella
 * Desarrollar máquinas virtuales en Amazon EC2, con la finalidad de generar un nuevo sistema operativo  y utilizarlo en cualquier momento y parte del mundo.
 
-## Tutorial para Crear Máquinas Vrtuales con Amazon Ec2 
+## Tutorial para Crear Máquinas Vrtuales con Amazon EC2 
 
 **Máquina Virtual**
+
  Es un software que permite emular el funcionamiento de un ordenador dentro de otro mendiante el encapsulamiento que aísla a ambos.Puede ejecutar cualquier sistema operativo o programa, sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta.
 Se puede trabajar con varios sistemas operativos al mismo tiempo en un mismo ordenador por ejemplo se podria usar Linux y windows.
 

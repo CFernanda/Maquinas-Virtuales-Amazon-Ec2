@@ -17,7 +17,7 @@ Generar máquinas virtuales, mediante la plataforma Amazon EC2,utilizando esta h
 
 ## Tutorial para Crear Máquinas Vrtuales con Amazon Ec2 
 
-**Maquina Virtual**
+**Máquina Virtual**
  Es un software que permite emular el funcionamiento de un ordenador dentro de otro mendiante el encapsulamiento que aísla a ambos.Puede ejecutar cualquier sistema operativo o programa, sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta.
 Se puede trabajar con varios sistemas operativos al mismo tiempo en un mismo ordenador por ejemplo se podria usar Linux y windows.
 
@@ -83,7 +83,7 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 ![Img5IngresoConsola.pn]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img5IngresoConsola.png) 
 
 
-* Una vez que dimos click en ese botón se abren 5 tipos de formularios donde pide varios datos que son necesarios para crear la cuenta;
+* Una vez que se dio click en ese botón se abren 5 tipos de formularios donde pide varios datos que son necesarios para crear la cuenta;
   - **Crear cuenta de AWS** Se ingresa los datos de la cuenta que se creara
 
   - **Información de contacto** se debe escoger personal, si no perteneces a alguna empresa.
@@ -95,6 +95,76 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
  ![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
 
  ![Img7formularioScrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img7formularioScrearcuenta.png) 
+
+Una vez  creada la cuenta se debe ingresar con el correo y la clave a la plataforma Amazon EC2.
+ ![Img8entradaconsola.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img8entradaconsola.png)
+
+**2) Crear una clave de acceso**
+
+ Una vez en la consola se dirige al Botón **Servicios** y ahi escogemos **EC2**
+ 
+  ![Img9Servicios.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img9Servicios.png)
+  
+  Creamos la Clave de acceso en la sección **Network & Security**, en la pestaña **Keir pairs** se abrira una ventana con las claves ya cradas y para crear una nueva se ingresa   en el botón naranja **Create Key Pair**
+  
+   ![Img10NetworkSecurity.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img10NetworkSecurity.png)
+   
+   Se crea una nueva tipo Pem y con el nombre, se descarga un archivo con la clave que se la ocupará para la generación de las Máquinas Virtuales, 
+   
+   ![Img11CreateKey%20Pair.]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img11CreateKey%20Pair.png)
+   
+ **3) Crear la Máquina**
+ 
+ - En la Sección **INSTANCES**, escoger la pestaña Instance y se abrira la ventana con las máquinas ya creadas y para crear una nueva se debe dar click en el botón **"Launch Instance"**
+ 
+ ![Img12Instancias.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img12Instancias.png)
+ 
+- Para crear la nueva Máquina el primer paso es escoger Tipo se distema operativo que necesitemos.
+
+ ![Img13tipoMaquina.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img13tipoMaquina.png)
+ 
+- Se abren ventanas para configurar la máquina virtual como sea de su preferencia.
+
+- Una vez escogidas las características se abre una nueva ventana donde ingresaremos la clave creada en el paso 2.
+ Escogemos el nombre de la clave que fue creada,aceptamos los terminos y condiciones y damos click en **Launch Instances**
+ 
+ ![Img14Ingresar%20Key.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img14Ingresar%20Key.png)
+ 
+ - Se abrirá una nueva ventana indicando si fue creada con éxito.
+ ![Img15Launch.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img15Launch.png)
+ 
+ - Al terminar se abrirá la ventana  de las características  y nombres de las máquina tanto las creadas como la que recién se creó, en esta verificaremos el estado de la máquina y de aquí se puede  prednerla, detenerla o apagarla.
+ 
+  ![Img16Caracteristicas.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img16Caracteristicas.png )
+
+- La máquina ya esta creada ahora debemos entrar en ella para eso bore la maquina que deseemos entrar debemos dar click derecho y escoger la opcion **Get Windows Password**
+ 
+ ![Img17Caracteristicas.png](  https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img17IngresoMaquina.png )
+ 
+ - Lo siguiente sera ingresar la clave de Acceso que se Genero(en este caso estoy ingresando a otr otra maquina por eso cambia el nombre ) y dar
+ 
+ 
+
+
+  
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+  
+   
+   
+   
+ 
+
+
+ 
+ 
  
  
   

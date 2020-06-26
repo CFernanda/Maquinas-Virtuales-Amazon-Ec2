@@ -16,6 +16,7 @@ Generar máquinas virtuales, mediante la plataforma Amazon EC2,utilizando esta h
 * Desarrollar máquinas virtuales en Amazon EC2, con la finalidad de generar un nuevo sistema operativo  y utilizarlo en cualquier momento y parte del mundo.
 
 ## Tutorial para Crear Máquinas Vrtuales con Amazon Ec2 
+
 **Maquina Virtual**
  Es un software que permite emular el funcionamiento de un ordenador dentro de otro mendiante el encapsulamiento que aísla a ambos.Puede ejecutar cualquier sistema operativo o programa, sin que nada de lo que suceda en el interior de esa ventana afecte al ordenador que la ejecuta.
 Se puede trabajar con varios sistemas operativos al mismo tiempo en un mismo ordenador por ejemplo se podria usar Linux y windows.
@@ -48,8 +49,11 @@ Amazon EC2 ofrece a sus usuarios la posibilidad de crear entornos informáticos 
 * Volúmenes de almacenamiento persistente para los datos usando Amazon Elastic Block Store (Amazon EBS), conocidos como volúmenes de Amazon EBS
 * Varias ubicaciones físicas para los recursos, como las instancias y los volúmenes de Amazon EBS, conocidas como regiones y zonas de disponibilidad
 * Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas   virtuales (VPC)
+
 ##### Precios de Amazon EC2
+
 Existen cinco modelos de compra de instancias de Amazon EC2:
+
 * Bajo demanda: Con las instancias bajo demanda, paga por la capacidad informática por hora o por segundo, según las instancias que use.            
 * Savings Plans: Es un modelo de precios flexible que ofrece precios económicos por el uso de EC2 y Fargate, a cambio de comprometerse a una cantidad constante de uso (medida en USD/hora) durante el término de 1 o 3 años.
 * Instancias reservadas:Las instancias reservadas ofrecen un descuento importante (de hasta el 75 %) en comparación con los precios de las instancias bajo demanda.  
@@ -57,6 +61,7 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 * Alojamientos dedicados:Un host dedicado es un servidor físico de EC2 exclusivo para su uso. Los hosts dedicados pueden ayudarle a reducir costos porque le permiten usar sus licencias existentes de software enlazado al servidor, incluidos Windows Server, SQL Server y SUSE Linux Enterprise Server (en función de los términos de su licencia). 
 
 *CAPA GRATUITA*
+
 **12 meses gratis:** Exclusiva para los nuevos clientes de AWS y solo durante doce meses a partir de la fecha de inscripción en AWS. Cuando finalicen los 12 meses de uso gratuito o si el uso de su aplicación supera las capas, tendrá que pagar las tarifas de servicio estándar.
 
 **Gratis para siempre:** No vencen automáticamente al finalizar los 12 meses de la capa gratuita de AWS, sino que están disponibles tanto para clientes ya existentes como para nuevos clientes de AWS de forma indefinida.
@@ -64,6 +69,7 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
 **Pruebas:** Son ofertas de pruebas a corto plazo que comienzan desde el momento en que comienza el primer uso. Una vez que vence el plazo, simplemente tendrá que pagar las tarifas del servicio estándar según el uso (consulte la página de cada servicio para obtener información completa sobre los precios).
 
 #### Manual de Usuario
+
  Para la GeneraciÓn de una máquina virtual en la plataforma Amazon EC2  se deben seguir ciertos pasos:
  **1) Crear una cuenta en Amazon EC2**
  
@@ -71,13 +77,22 @@ Existen cinco modelos de compra de instancias de Amazon EC2:
  
  ![Img4IngresoAmazonEC2.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img4IngresoAmazonEC2.png) 
 
-* En la pantalla anterior damos click en el botón tomate "**Ingresar a la consola**", y aparecerá una nueva ventana que nos permitirá ingresar si ya se tiene una cuenta o  crear  nueva, para el caso damos click en "**Crear una cuenta de AWS** "
+* En la pantalla anterior damos click en el botón tomate "**Inicie sesion en la consola**", y aparecerá una nueva ventana que nos permitirá ingresar si ya se tiene una cuenta o  crear  nueva, para el caso damos click en "**Crear una cuenta de AWS** "
 
 ![Img5IngresoConsola.pn]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img5IngresoConsola.png) 
 
-![Img6formulariocrearcuenta.pngg]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.pngg) 
+![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
 
-* Una vez Ingresado se abre un formulario donde pide varios datos que son necesarios para crear la cuenta, uno de esos datos es el ingreso de un número de Tarjeta de Crédito Amazon Ec2 lo utiliza solo para verificar la cuenta, por tal motivo se descuentan $1 sin embargo a los dos días como máximo se reembolsa ese dinero y de ahí en adelante se puede usar durante 12 meses de forma gratuita
+* Una vez que dimos click en ese boton se abren 5 tipos de formularios donde pide varios datos que son necesarios para crear la cuenta;
+
+  - **Informacion de contacto** se debe escoger personal, si no perteneces a alguna empresa
+  
+  - **Informacion de pago** se necesita el ingreso de un número de Tarjeta de Crédito, Amazon Ec2 lo útiliza solo para verificar la cuenta, por tal motivo se descuentan $1 sin       embargo a los dos días como máximo se reembolsa ese dinero y de ahí en adelante se puede usar durante 12 meses de forma gratuita. 
+  
+  - En los dos últimos se realiza la verificación y da el resultado si la creación fue exitosa o no.
+
+![Img6formulariocrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img6formulariocrearcuenta.png) 
+
  ![Img7formularioScrearcuenta.png]( https://github.com/CFernanda/Maquinas-Virtuales-Amazon-Ec2/blob/master/imagenenes/Img7formularioScrearcuenta.png) 
  
   
